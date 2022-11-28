@@ -1,0 +1,12 @@
+.filters_wrapper {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 320px !important;
+  }
+
+  @media (max-width: 991px) {
+    .full_wrapper {
+        display: none;
+      }
+
+  }

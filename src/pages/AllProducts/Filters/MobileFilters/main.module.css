@@ -1,0 +1,25 @@
+.filters_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 320px !important;
+  }
+
+  @media (max-width: 991px) {
+    .full_wrapper {
+        display: none;
+      }
+
+  }
+
+  .btn {
+    width: 50%;
+    margin-top: 20px;
+    font-weight: 550;
+    background-color: #669900;
+    border-radius: 5px;
+    padding: 9px 5px;
+    transition: all 0.4s ease;
+    color: #fff;
+    border: none;
+    margin-right: 5px;
+  }

@@ -1,0 +1,20 @@
+.search_container{
+    margin-top: 3.7rem;
+}
+
+#search_inp{
+    padding: 7px;
+    outline: none;
+    border-radius: 3px;
+}
+
+#search_inp:focus{
+    box-shadow: none;
+    border: 1px solid #669900;
+}
+
+@media (max-width:991px){
+    .search_container{
+        display: none;
+    }
+}

@@ -1,0 +1,17 @@
+.body_row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.slider {
+  width: 95%;
+  margin: auto;
+}
+
+@media (max-width: 912px) {
+  .slider {
+    width: 100%;
+  }
+}
+
+

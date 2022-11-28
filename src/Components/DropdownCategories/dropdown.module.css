@@ -1,0 +1,19 @@
+.mobile_dropdown{
+    color: #fff !important;
+}
+
+.list{
+    cursor: pointer;
+}
+
+@media (max-width:991px) {
+    .mobile_dropdown{
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        align-self: flex-start !important;
+        line-height: 35px !important;
+        
+    }
+
+
+}

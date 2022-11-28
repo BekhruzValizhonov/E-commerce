@@ -1,0 +1,279 @@
+.arrow {
+  display: flex;
+  width: 50px;
+  position: absolute;
+  top: 200px;
+}
+
+.arrow_right {
+  right: -15px;
+  cursor: pointer;
+}
+
+.arrow_left {
+  z-index: 1;
+  cursor: pointer;
+}
+
+.banner {
+  width: 868px;
+  height: 339.59px;
+  margin-bottom: 30px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 4rem 0px 15px 0px;
+}
+
+.card_img {
+  width: 390px;
+  height: 193px;
+}
+
+.offers:last-child {
+  margin-top: 1.5rem;
+}
+
+.icons {
+  color: #669900;
+  font-size: 25px;
+}
+
+@media (max-width: 1257px) and (min-width: 1199px) {
+  .slick-slide {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .banner {
+    max-width: 100%;
+    height: auto !important;
+  }
+
+  .banner_img {
+    max-width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .card_img {
+    max-width: 100%;
+    height: 193px;
+  }
+}
+
+@media (max-width: 850px) {
+  .arrow {
+    display: none;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 713px) {
+  .wrapper {
+    flex-wrap: wrap;
+    margin: 3.5rem 0px 15px 0px;
+  }
+
+  .slick-slide {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .banner {
+    max-width: 100%;
+    height: 400px !important;
+    margin-top: .6rem;
+  }
+
+  .banner_img {
+    max-width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .offers:last-child {
+    margin-top: 0rem;
+  }
+
+  .card_img {
+    max-width: 100%;
+    margin: 0px 20px;
+  }
+
+  .right_card {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (max-width: 600px) {
+  .wrapper {
+    margin: 0px;
+  }
+
+  .right_card {
+    flex-wrap: wrap;
+    margin-top: 0px;
+  }
+
+  .card_img {
+    width: 90vw !important;
+    height: auto !important;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 713px) and (min-width: 414px) {
+  .slick-slide {
+    max-width: 100% !important;
+    height: 300px !important;
+  }
+
+  .banner {
+    max-width: 100%;
+    height: 300px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0px !important;
+  }
+
+  .offers:last-child {
+    margin-top: 2px;
+  }
+
+  .right_card {
+    margin-top: 0px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card_img {
+    margin-top: 1rem;
+    width: 50vw;
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .banner_img {
+    max-width: 100%;
+    height: 300px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .wrapper {
+    margin: 3.5rem 0px 0px 0px;
+    flex-wrap: wrap;
+  }
+
+  .arrow {
+    display: none;
+  }
+}
+
+@media (max-width: 414px) and (min-width: 280px) {
+  .banner {
+    width: 100%;
+    height: auto !important;
+    margin: 0px !important;
+  }
+  .wrapper {
+    margin: 3.5rem 0px 0px 0px;
+    flex-wrap: wrap;
+  }
+
+  .right_card {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .card_img {
+    width: 95vw !important;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 0.8rem;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .offers:last-child {
+    margin-top: 2px !important;
+  }
+
+  .banner_img {
+    max-width: 100%;
+    /* add */
+    height: 237px;
+    /* /add */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+}
+
+@media (max-width: 280px) {
+  .wrapper {
+    flex-wrap: wrap;
+  }
+
+  .banner {
+    width: 100%;
+    height: auto !important;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .offers:last-child {
+    margin-top: 2px !important;
+  }
+
+  .icons {
+    color: #669900;
+    font-size: 20px !important;
+  }
+
+  .card_img {
+    width: 100vw !important;
+    height: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .banner_img {
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+}

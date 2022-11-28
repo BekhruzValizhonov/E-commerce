@@ -1,0 +1,18 @@
+.input{
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+.dialog{
+    display: none;
+}
+
+@media (max-width:991px) {
+    .dialog{
+        display: block;
+    }
+
+}
+

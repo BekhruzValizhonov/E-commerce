@@ -1,0 +1,46 @@
+.link {
+    color:#669900;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover {
+    color:#669900;
+}
+
+.type_product{
+    background-color: #f2f2f2;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+@media (max-width:912px){
+    .type{
+        font-size: 15px;
+    }
+
+    .link {
+        color:#669900;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    
+    .link:hover {
+        color:#669900;
+    }
+}
+
+@media (max-width:280px){
+    .type{
+        font-size: 11px;
+    }
+
+    .link {
+        font-size: 10px;
+    }
+    
+    .link:hover {
+        color:#669900;
+    }
+}
